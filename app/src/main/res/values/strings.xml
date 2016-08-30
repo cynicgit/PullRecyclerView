@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PullRecyclerView</string>
+    <string name="loading">加载中...</string>
+    <string name="pull_no_datas">没有数据了</string>
+    <string name="pull_load_error">加载失败</string>
+    <string name="pull_reload">重试</string>
+</resources>

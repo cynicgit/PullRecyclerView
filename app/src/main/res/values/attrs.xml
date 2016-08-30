@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PullRecyclerView">
+        <!-- 局部刷新-->
+        <attr name="is_range_changed" format="boolean"/>
+    </declare-styleable>
+</resources>
