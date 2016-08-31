@@ -17,7 +17,8 @@ RecyclerView上拉刷新
 	    </android.support.v4.widget.SwipeRefreshLayout>
 
 2. adapter 继承 PullRefreshAdapter，瀑布流继承 StaggeredGridAdapter。 PullRefreshAdapter 已实现item点击事件实现 PullOnItemClickListener 接口即可。
-3. 代码设置 
+3. 自定义FootView，实现BaseFootHolder抽象类和重写方法onFootHolder，这个还没测试过。
+4. 代码设置 
       
 		mRecyclerView.setLayoutManager(mLayoutManager);
 		mAdapter = new MyAdapter(datas);
